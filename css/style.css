@@ -1,0 +1,92 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(https://arthur-littm.github.io/startup-landing/images/background.png);
+  background-size: cover;
+  height: 300px;
+  padding-top: 200px;
+}
+
+.banner h1 {
+  color: white;
+  margin: auto;
+}
+
+.banner a {
+  color: white;
+  background-color: #1edd88;
+  padding: 16px 36px;
+  border: 1px solid #1edd88;
+  border-radius: 40px;
+}
+
+.banner p {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.cards-countainer img {
+height: 100px;
+}
+
+.cards-countainer {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-around;
+}
+
+.how-it-works-cards {
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  width: 200px;
+  border-radius: 3px;
+}
+
+.footer {
+  background-color: #2c2b2b;
+  height: 200px;
+}
+
+.footer .container {
+  text-align: center;
+  margin-top: 50p;
+  color: white;
+  padding: 50px;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  color: #1edd88;
+  font-size: 31px;
+}
