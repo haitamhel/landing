@@ -61,7 +61,7 @@ height: 100px;
 .cards-countainer {
   display: flex;
   margin-bottom: 30px;
-  justify-content: space-around;
+
 }
 
 .how-it-works-cards {
